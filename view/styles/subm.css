@@ -1,0 +1,290 @@
+/*********************/
+/* Welcome Page Styles */
+/*********************/
+
+#Welcome-top{
+    width: 100%;
+	border-bottom: 1px solid #636363;
+    height: 70px;
+    top: 15%;
+    left: 0;
+    background-color: transparent;  
+}
+
+
+/* End of Welcome Page Styles */
+
+                    /*********************/
+                    /* Ordinary users pages' styles */
+                    /*********************/
+
+#top{
+    width: 100%;
+	border-bottom: 1px solid #636363;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #31313a;
+}
+.brand{
+    display: inline-block;
+
+}
+.brand li{
+    display: inline;
+    font-size: 0.9em;
+    font-family:  'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 2px solid #636363;
+}
+.brand li:last-child{
+    border: none;
+}
+#headerNav{
+    display: inline;
+}
+#headerNav ul{
+    position:relative;
+    float: right;
+    padding-right: 2%;
+}
+#headerNav  li{
+    display: inline;
+}
+#decor{
+
+    height:  40px;
+
+}
+.pageInfo{
+    background-color: #31313a;
+    border-bottom: 1px solid #636363;
+    height: 50px;
+}
+                        /* Meba's Page Styles */
+                        /*********************/
+
+
+article{
+  background-color:white;
+  width:50%;
+  height:110%;
+  position:absolute;
+  left:15%;
+  top:30%;
+  margin:4%;
+  border-radius:6px;
+  color:rgb(128,128,128);
+  padding-left:15%;
+  padding-top:3%;
+  box-shadow:  0 5px 20px #31313a;
+  overflow-x: hidden;
+}
+
+#compress{
+  width: 60%;
+  font-family: "lucida calligraphy";
+
+  color:rgb(248,154,158);
+  font-size: 12.5px;
+}
+#profile img{
+  border-radius: 50%;
+  box-shadow:0 5px 20px #999;
+  margin-top: 10%;
+
+
+}
+
+#search{
+
+   width:15%;
+   left:20%;            
+   background-color:white;
+   border-radius:4px;
+				
+			}
+#searchform{
+    width: 80%;
+}
+	
+#visit ul li a{
+    
+    color: #31313a;
+    
+}
+	#remedies ul li{
+  list-style-type: disc;
+
+  }
+
+  #remedies{
+    font-family: "lucida Fax";
+     width: 60%;
+  color: #31313a;
+   border-bottom: 2px solid rgb(248,154,158);   /*************DONT REMOVE this line*******************/
+                                
+   padding-bottom: 10%;       /*put ur submitted remedies in the remedies div and it will be inserted between the submission and the border bottom */
+
+
+}
+
+
+
+                                               /*****END OF EXT STYLE *******/
+
+
+
+/* SUBMIT 'PAGE' CSS */
+.submit-form{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    color:#04699d;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#in-sign{
+    color: lightgreen;
+    margin-left: 15px;
+}
+.submit-form form{
+     display: block;
+     color: #000000;
+
+}
+
+.submit-form li{
+    padding: 2%;
+
+}
+.submit-form label{
+    display: inline;
+    text-align: left;
+    margin-right: 2%;
+}
+.submit-form input{
+
+    width: 70%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+.submit-form form textarea{
+
+    width: 60%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+.submit-form #submitFormButton{
+    float: right;
+    width: 70px;
+    margin-right: 3%;
+}
+
+#subCancel{
+    color: Black;
+    font-size: 0.8em;
+    border-radius:5px;
+    background-color: white;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px dotted lightgreen;
+    text-decoration: none;
+}
+
+#welcomeTop{
+
+    background-repeat: no-repeat;
+}
+#HeroImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#professionalButton{
+    background-color: #F25334;
+   border-radius: 2px;
+    padding: 5px;
+}
+/***Media query for Header buttons **/
+
+@media (min-width: 569px){
+    #drop{
+        display: none;
+        }
+}
+
+@media (max-width: 569px){
+    #drop{
+        display: block;
+        }
+    #headerNav ul{
+        display: none;
+    }
+}
+
+
+h1{
+    font-size: 1.2em;
+    display: inline;
+}
+li{
+    list-style: none;
+}
+header{
+
+	border-top: 4px solid #ed1c24;
+    background-image: url("../images/herbbowl.jpg");
+    height: 150px;
+    margin-top: 0;
+	left: 0;
+
+
+}
+nav{
+    width: 100%;
+}
+
+body{
+    color: #e2e2e2;
+    font-family: sans-serif;
+    background-image:url(../images/AyateWallpaper.jpg);
+}
+a{
+    color: #e2e2e2;
+    text-decoration: none;
+}
+button{
+    border: none;
+    background: none;
+}
+        
+
+#visit{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: inline;
+    width: 70%;
+}
+
+#diseaseButton{
+    top: 25%;
+    position:relative;
+    background-color: #ed1c24;
+    left:7%;
+}
+#remedyButton{
+    position:relative;
+    background-color: #ed1c24;
+    left:7.5%;
+}
+
+

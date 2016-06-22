@@ -1,0 +1,32 @@
+body{
+	background-color:rgb(128,128,128);
+   }
+
+nav ul{
+	list-style-type:none;
+    padding:0;
+    margin:10px;
+    border:solid white;	
+	}
+
+nav ul li{
+	display:block;
+	border:solid white;	
+    }
+
+nav ul li a:hover{
+	background-color:#fff;
+	padding:15px 15px;
+	}
+	
+nav ul li a:visited{
+	display:block;
+	padding:15px;
+	color:#888;
+	text-decoration:none;
+	}
+	
+nav ul  ul {
+	
+	position:absolute;
+	}

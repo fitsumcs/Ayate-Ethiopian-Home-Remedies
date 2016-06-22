@@ -1,0 +1,18 @@
+.top{
+    background-color: #31313a;
+    border-bottom: 1px solid #636363;
+    border-top: 4px solid #ed1c24;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "sans serif";
+    min-height: 80px;
+    position: relative;
+    color: #ffffff;
+
+}
+#topNav{
+    float: right;
+    padding-right: 20px;
+}

@@ -1,0 +1,359 @@
+
+
+#add{
+    position:absolute;
+    left:87%;
+    bottom:20%;
+}
+#article{
+    background-color:white;
+    width: 65%;
+    height: 200%;
+    top: 22%;
+    left: 25%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color:rgb(128,128,128);
+    padding-left:20px;
+    padding-top:20px;
+    box-shadow:  0 5px 20px #999;
+}
+
+#compress{
+    width: 60%;
+    font-family: "lucida calligraphy";
+
+    color:rgb(248,154,158);
+    font-size: 12.5px;
+}
+
+
+#caption{
+    position: absolute;
+    bottom:325px;
+    left:10%;
+}
+
+#contacts{
+    margin-left: 75%;
+    position: absolute;
+    top:4%;
+    border-left: solid 2px #EBEBEB;
+    width:200px;
+    padding-left: 5%;
+
+}
+#inhance{
+    font-size: 14.5px;
+}
+
+.tab{
+    padding-left:40px;
+    height: 40px;
+    background-color:#ed1c24;
+    position:absolute;
+    top:0px;
+    left:220px;
+    width:65%;
+    /*margin-right:30;*/
+}
+
+#header{
+    font-family:"lucida calligraphy";
+    font-size: 25px;
+    font-weight: 10px;
+    text-shadow:5px 5px 25px #999;
+    width: 60%;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* Starter CSS for Flyout Menu */
+
+
+
+#cssmenu {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width:25%;
+    background:#999;
+    height:350px;
+    margin-top:10px;
+
+    padding-left:0;
+    background: #31313a;
+}
+
+#cssmenu ul a,
+#cssmenu ul a:link
+
+{
+    color: #e2e2e2;
+    display:block;
+    text-decoration:none;
+    font-weight:300;
+}
+
+#cssmenu ul{
+    padding-left:5px;
+    background: #31313a;
+}
+
+
+#cssmenu ul li a:hover {
+    color: #ed1c24;
+}
+
+
+
+
+
+
+
+
+.sth{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;}
+
+
+#right{
+    position: absolute;
+    left:35%;
+    padding-bottom:10px;
+}
+
+#left{
+    position: absolute;
+    left:25%;
+    padding-bottom:10px;
+}
+.img{
+
+
+    position:absolute;
+    top:110px;
+    left:1115px;
+    width:300px;
+    height:120px;
+    bottom:20px;
+
+}
+.dis{
+    height:50%;}
+
+
+.text{
+    position:absolute;
+    top:30%;
+    left:30%;
+    background-color:#31313a;
+
+
+    bottom:275px;
+}
+
+
+
+
+
+
+
+
+#cssmenu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 11px;
+    padding-top: 15px;
+    font-family: inherit;
+    color: #e2e2e2;
+}
+
+#cssmenu a:hover{
+    color: #ffffff;
+}
+
+.top{
+    background-color: #31313a;
+    border-bottom: 1px solid #636363;
+    border-top: 4px solid #ed1c24;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "sans serif";
+    min-height: 80px;
+    position: relative;
+    color: #ffffff;
+
+}
+#topNav{
+    float: right;
+    padding-right: 20px;
+}
+
+#Wallpaper-LEAVE-INTACT{
+    background-image: url("../images/spices.jpg");
+    position: relative;
+}
+
+#botbot{
+    font-size: 20px;
+    font-weight: 450;
+    margin-bottom: 35px;
+    float: right;
+    margin-right: 13%;
+    color: #ffffff;
+}
+
+#botSmall{
+    background-color: #292932;
+    position: relative;
+    font-family: "sans serif";
+    font-weight: bold;
+    margin-top: 40px;
+    height: 45px;
+    padding: 10px;
+    padding-left: 18px;
+}
+
+ul li{
+    clear: both;
+    list-style: none;
+}
+
+
+#container{
+    width:800px;
+    height:500px;
+    border-radius:2px 2px 2px 2px;
+
+    padding-left:10px;
+}
+#container a{
+    text-decoration:uderline;
+    color:blue;
+}
+#container a:hover{
+    color:red;
+}
+#container {
+    height:60px;
+
+}
+#heading{
+    height:30px;
+    border-bottom:1px solid red;
+}
+
+#back{
+    margin-left:48%;
+}
+#search{
+    color: #ed1c24;
+
+}
+#SearchList li{
+    display: inline;
+}
+#remedies ul li{
+    list-style-type: disc;
+}
+
+
+#remedies{
+    font-family: "lucida Fax";
+    width: 60%;
+    color:#999;
+}
+#remedies{
+    border-bottom: 2px solid rgb(248,154,158);
+    padding-bottom: 10%;
+}
+#checkbox{
+    font-size: 12px;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: "times new Roman";
+}
+
+#find{
+    width: 55%;
+}
+#hide {
+    display:none;
+    padding-left:10px;
+
+}
+
+#hide1{
+    display:none;
+    padding-left:10px;
+
+}
+
+#hide2{
+    display:none;
+    padding-left:10px;
+
+}
+
+
+#hide3{
+    display:none;
+    padding-left:10px;
+
+}
+
+
+
+#hide4{
+    display:none;
+    padding-left:10px;
+
+}
+
+
+#hide5{
+    display:none;
+    padding-left:10px;
+
+}
+
+
+
+#hide6{
+    display:none;
+    padding-left:10px;
+
+}
+#hide td{
+    height:45px;
+
+}
+#table tr{
+    cellspacing:15px;
+}
+
+.Remedy a{
+    text-decoration:underline;
+}
+
+
+#table1  tr{
+    width:200px;
+}
+
+#table1  td {
+    width:200px;
+
+}
+#table1{
+
+}
+
+#tr1{
+    display:none;
+}

@@ -1,0 +1,270 @@
+/*********************/
+/* Welcome Page Styles */
+/*********************/
+#Welcome-top{
+    width: 100%;
+	border-bottom: 1px solid #636363;
+    height: 70px;
+    top: 15%;
+    left: 0;
+    background-color: transparent;
+}
+
+
+/* End of Welcome Page Styles */
+
+                    /*********************/
+                    /* Ordinary users pages' styles */
+                    /*********************/
+
+#top{
+    width: 100%;
+	border-bottom: 1px solid #636363;
+    height: 70px;
+    top: 15%;
+    left: 0;
+    background-color: #31313a;
+
+
+}
+.brand{
+    display: inline-block;
+
+}
+.brand li{
+    display: inline;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 2px solid #636363;
+}
+.brand li:last-child{
+    border: none;
+}
+#headerNav{
+    display: inline;
+}
+#headerNav ul{
+    position:relative;
+    float: right;
+    padding-right: 2%;
+}
+#headerNav  li{
+    display: inline;
+}
+#decor{
+
+    height:  40px;
+
+}
+.pageInfo{
+    background-color: #31313a;
+    border-bottom: 1px solid #636363;
+    height: 50px;
+}
+#menu{
+    color: #e2e2e2;
+    background-color: rgb(49,49,59);
+    float: right;
+    margin-top: 5%;
+}
+#menu-list li{
+    display: list-item;
+    padding: 5%;
+
+}
+                        /* Meba's Page Styles */
+                        /*********************/
+
+
+article{
+  background-color:white;
+  width:50%;
+  height:110%;
+  
+  left:15%;
+  margin-top:20%;
+  margin:4%;
+  border-radius:6px;
+  color:rgb(128,128,128);
+  padding-left:15%;
+  padding-top:3%;
+  box-shadow:  0 5px 20px #31313a;
+}
+
+#compress{
+  width: 60%;
+  font-family: "lucida calligraphy";
+
+  color:rgb(248,154,158);
+  font-size: 12.5px;
+}
+#profile img{
+  border-radius: 50%;
+  box-shadow:0 5px 20px #999;
+  margin-top: 10%;
+
+
+}
+	#remedies ul li{
+  list-style-type: disc;
+
+  }
+
+  #remedies{
+    font-family: "lucida Fax";
+     width: 60%;
+  color: #31313a;
+
+   }
+ #remedies{
+   border-bottom: 2px solid rgb(248,154,158);
+   padding-bottom: 10%;
+
+}
+
+
+
+                                               /*****END OF EXT STYLE *******/
+
+
+
+/* SUBMIT 'PAGE' CSS */
+.submit-form{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    color:#04699d;
+    top: 10%;
+    background-color: dimgray;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#in-sign{
+    color: lightgreen;
+    margin-left: 15px;
+}
+.submit-form form{
+     display: block;
+     color: #000000;
+
+}
+
+.submit-form li{
+    padding: 2%;
+
+}
+.submit-form label{
+    display: inline;
+    text-align: left;
+    margin-right: 2%;
+}
+.submit-form input{
+
+    width: 70%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+.submit-form form textarea{
+
+    width: 60%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+.submit-form #submitFormButton{
+    float: right;
+    width: 70px;
+    margin-right: 3%;
+}
+
+#subCancel{
+    color: Black;
+    font-size: 0.8em;
+    border-radius:5px;
+    background-color: white;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px dotted lightgreen;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#welcomeTop{
+
+    background-repeat: no-repeat;
+}
+#HeroImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#professionalButton{
+    background-color: #F25334;
+   border-radius: 2px;
+    padding: 5px;
+}
+/***Media query for Header buttons **/
+
+@media (max-width: 660px){
+    .submit-form{
+        width: 80%;
+        }
+}
+
+@media (min-width: 679px){
+    #menu{
+        display: none;
+        }
+}
+
+@media (max-width: 679px){
+    #menu{
+        display: block;
+        }
+    #headerNav ul{
+        display: none;
+    }
+}
+/*
+
+
+
+@media (min-width: 829px){
+    .submit-form input{
+        width: 30em;
+        height: 1.6em;
+    }
+    .submit-form textarea{
+        width: 30em;
+        height: 7em;
+    }
+}
+/*
+@media (max-width: 960px){
+    nav ul {
+        display: none;
+    }
+    nav select{
+        display: inline;
+    }
+}
+*/
+

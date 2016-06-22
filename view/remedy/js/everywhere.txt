@@ -1,0 +1,20 @@
+/* 
+	$(document).click(function(event){
+		var text=$(event.target).text();
+       
+		
+		alert(text);
+		
+	});
+ */
+//$("#illneses").click(alert("Hello world"))
+document.getElementById("illneses").onclick=displayCatag();
+
+function displayCatag(){
+	
+	var text=$(event.target).text();
+       
+		
+		alert("Inside Function");
+		
+}

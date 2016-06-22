@@ -1,0 +1,426 @@
+
+.login-whole{
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 25%;
+    background-image: url("../images/herb1.jpg");
+    opacity: 0.9;
+    border-radius: 6px;
+    border-top: 1px dotted transparent;
+    padding: 2%;
+}
+.login-content{
+
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 7px;
+    margin: 2%;
+    width: 80%;
+
+    padding: 5%;
+
+}
+.login-content form{
+
+    display: block;
+    color: #000000;
+    display: inline;
+
+}
+.login-content form label{
+    display: block;
+
+}
+.login-content form input{
+    display: block;
+    width: 230px;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+.login-content #loginButton{
+    float: right;
+    width: 70px;
+}
+
+/******************/
+/* Forgot pop-up Styles */
+/******************/
+
+#abc {
+    width:100%;
+    height:100%;
+    opacity:.95;
+    top:0;
+    left:0;
+    display:none;
+    position:fixed;
+    background-color:#313131;
+    overflow:auto
+}
+
+#popupContact {
+    position:absolute;
+    left:50%;
+    top:25%;
+    margin-left:-202px;
+    font-family:'Raleway',sans-serif;
+
+}
+#forgot-form {
+    max-width:300px;
+    min-width:250px;
+    padding: 10px 50px;
+    border:0.5px solid #ed1c24;
+    border-radius: 10px;
+    font-family: raleway;
+    background-color:#fff;
+    opacity: 1;
+    color: black;
+}
+#why-p {
+    margin-top:30px
+}
+#abc #saveButton{
+    float: right;
+    width: 70px;
+    border: 1px dotted lightgreen;
+    border-radius: 2px;
+    background: transparent;
+}
+
+
+/******************/
+/* Register Form Styles */
+/******************/
+
+
+.register-whole{
+    margin-top: 20px;
+    width: 100%;
+
+    opacity: 0.9;
+    border-radius: 6px;
+    border-top: 1px dotted transparent;
+
+}
+
+.register-content{
+
+    background-color: dimgray;
+    opacity: 0.75;
+    border-radius: 7px;
+    padding: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60%;
+    margin-left: 15%;
+}
+.register-content form{
+
+     display: block;
+     color: #000000;
+
+
+}
+.register-content form label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+
+}
+
+.register-content form input{
+
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+#genderli input{
+    width: 10px;
+}
+.register-content #registerButton{
+    float: right;
+    width: 70px;
+}
+.register-content li{
+    padding: 2%;
+}
+#crbuttons{
+    padding-top: 3%;
+}
+#forgot{
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+#registerLink{
+    color: white;
+     text-decoration: underline;
+     font-size: 0.85em;
+    margin-top: 0;
+    top: auto;
+}
+#in-sign{
+    color: lightgreen;
+}
+#regCancel{
+    color: Black;
+    font-size: 0.8em;
+    border-radius:5px;
+    background-color: white;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px dotted lightgreen;
+    text_decoration: none;
+}
+
+                                /******************/
+                                /* Debunk Form Styles */
+                                /******************/
+
+
+.debunk-whole{
+    margin-top: 20px;
+	margin-left: 15%;
+    width: 65%;
+    background-image: url("../images/herb1.jpg");
+    opacity: 0.9;
+    border-radius: 6px;
+    border-top: 1px dotted transparent;
+}
+#closeImg{
+    position: absolute;
+    width: 30px;
+    left: 79%;
+    top: 0;
+}
+
+.remedy-content textarea{
+
+    width: 70%;
+	padding: 10%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 5%;
+}
+.debunk-form{
+
+    background-color: dimgray;
+    opacity: 0.85;
+    border-radius: 7px;
+    padding: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70%;
+    margin-left: 5%;
+}
+.debunk-form form{
+
+     display: block;
+     color: #000000;
+
+
+}
+.debunk-form form label{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+
+}
+
+.debunk-form form input{
+
+    width: 70%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+.debunk-form form textarea{
+
+    width: 70%;
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.debunk-form #postButton{
+    float: right;
+    width: 70px;
+}
+.debunk-form li{
+    padding: 2%;
+}
+#dpbuttons{
+    padding-top: 3%;
+}
+
+#in-sign{
+    color: lightgreen;
+    margin-left: 15px;
+}
+#debCancel{
+    color: Black;
+    font-size: 0.8em;
+    border-radius:5px;
+    background-color: white;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px dotted lightgreen;
+    text-decoration: none;
+}
+
+                                    /**********************/
+                                    /* Profile Form Styles */
+                                    /*********************/
+
+.profile-whole{
+    margin-top: 20px;
+    width: 100%;
+    /*background-image: url("../images/herb1.jpg"); */
+    opacity: 0.9;
+    border-radius: 6px;
+    border-top: 1px dotted transparent;
+}
+#profileChangeButtons{
+    float: left;
+    width: 80px;
+    padding-left: 22px;
+    border-left: 4px solid #ed1c24;
+}
+#profileChangeButtons li{
+    padding: 5px;
+    border-right: 1px solid dimgray;
+
+}
+
+.profile-general-content{
+
+    background-color: dimgray;
+    opacity: 0.85;
+    border-radius: 7px;
+    padding: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60%;
+    margin-left: 105px;
+}
+
+.profile-general-content form{
+
+     display: block;
+     color: #000000;
+
+
+}
+.profile-general-content form label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+
+}
+
+.profile-general-content form input{
+
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+#genderli input{
+    width: 10px;
+}
+.profile-general-content #saveButton{
+    float: right;
+    width: 70px;
+}
+.profile-general-content li{
+    padding: 2%;
+    display: inline-block;
+}
+
+/*********************************************/
+.profile-security-content{
+
+    background-color: dimgray;
+    opacity: 0.85;
+    border-radius: 7px;
+    padding: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60%;
+    margin-left: 105px;
+
+}
+.profile-security-content form{
+
+     display: block;
+     color: #000000;
+
+
+}
+.profile-security-content form label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+
+}
+
+.profile-security-content form input{
+
+    border: 1px dotted lightgreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#genderli input{
+    width: 10px;
+}
+.profile-security-content #saveButton{
+    float: right;
+    width: 70px;
+}
+.profile-security-content li{
+    padding: 2%;
+}
+#csbuttons{
+    padding-top: 3%;
+    display: block;
+}
+#in-sign{
+    color: lightgreen;
+    margin-left: 15px;
+}
+#profileCancel{
+    color: Black;
+    font-size: 0.8em;
+    border-radius:5px;
+    background-color: white;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px dotted lightgreen;
+    text-decoration: none;
+}
+
+                                /******************/
+                                /* Home Page Styles */
+                                /*****************/
+
+#homeChangeButtons{
+    background-color: transparent;
+
+}
+#homeChangeButtons li{
+    display: inline;
+    padding-right: 7px;
+
+}
+
+                /*Professional Home Style */
+
+.page-whole{
+    position: relative;
+}
